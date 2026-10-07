@@ -1,16 +1,40 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**vicente-arriagada-lost/vicente-arriagada-lost** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# `vicente@github ~ $`
 
-Here are some ideas to get you started:
+```text
+┌──────────────────────────────────────────────────────────────┐
+│                    CONTRIBUTION HEATMAP                     │
+└──────────────────────────────────────────────────────────────┘
+```
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<img src="./contrib-heatmap.svg" alt="GitHub Contribution Heatmap">
+
+<br>
+
+<table>
+<tr>
+<td width="50%" align="center">
+
+<img src="./ascii.svg" alt="Animated ASCII portrait" width="100%">
+
+</td>
+<td width="50%" align="left">
+
+<img src="./info-card.svg" alt="System information and tech stack" width="100%">
+
+</td>
+</tr>
+</table>
+
+<br>
+
+```text
+┌──────────────────────────────────────────────────────────────┐
+│                  SYSTEM ONLINE                              │
+│                                                              │
+│  Linux • Cybersecurity • Software Development • CTF         │
+└──────────────────────────────────────────────────────────────┘
+```
+
+</div>
