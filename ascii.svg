@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="731" viewBox="0 0 720 731">
+
+<style>
+.ascii-row {
+    opacity: 0;
+    animation: appear 0.45s ease-out forwards;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateX(-12px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+</style>
+
+<rect width="100%" height="100%" fill="white"/>
+<text x="0" y="13" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:0.000s">      .c*c*#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%s+-=**c++++=+**ccss%#sssssssc*cs%= </text>
+<text x="0" y="27" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:0.055s">      -***#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%s=-**cc+**+++ccccs%#ssscccccccs%* </text>
+<text x="0" y="41" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:0.110s">      +*+#%%%%%%%%%%%%%%%%%%%%%%%%#sss#%%%%%%%%%%%%%%%%%%%%%%%%%%%%#++**s*******csss%#sccccss*ccs#c </text>
+<text x="0" y="55" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:0.165s">     .*+s%%%%%%%%%%%%%%%%%%%%%%%%%#cccs#%%%%%%%%%%%%%%%%%%%%%%%%%%%%#*+*cs*****ccsss#sccccsccsscs##.</text>
+<text x="0" y="69" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:0.220s">     :*s%%%%%%%%%%%%%%%%%%%%%%%%%%%ccsc###s#%%%%%%%%%%%%%%%%%%%%%%%%%#**csc+**+csss##scccccccsscs##:</text>
+<text x="0" y="82" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:0.275s">     =*%%%%%%%%%%%%%%%#%%%%%%%%###%##ss#ssc***+*##%%%%%%%%%%%%%%%%%%%%s*ccc*+***ssss#scc**cscsssss#+</text>
+<text x="0" y="96" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:0.330s">    `*%%%%%%%%%%%%%%%%%%#ss#%%%%#%#%###ssssccc****c#%%%%%%%%%%%%%%%%%%%scc*c=**csscs#scc**cscsssss%*</text>
+<text x="0" y="110" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:0.385s">    -s%%%%%%%%%%%%%%%%%%%%%%%%%%%##%%#%##ssc******cs#%%%%%%%%%%%%%#%%%%#c**c*+ccssc#sscc**cccccsss%c</text>
+<text x="0" y="124" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:0.440s">    *%%%%%%%%%%%%s*#%%%%%%%%%%%%%#%##sssc*s#####sssccs####ssssss#%###%%%s***c++sssc#scc**ccccccsss%c</text>
+<text x="0" y="138" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:0.495s">   `#%%%%%%%%%%%%%=*@%%@%%%%%%%%%%%%%%#%#####%%%%%#####%%%%%%%%%%%%%%%%%%s*++*=ssss#scc*cccccccccs%c</text>
+<text x="0" y="151" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:0.550s">   +@%%%%%%%%%%%%%c-s%cc#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%c=-**ccc#%sscccccccccccs#c</text>
+<text x="0" y="165" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:0.605s">  .#%%%%%%%%%%%%%%%-s@*:=%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#+=+s*cc#%ssccsccccccccs#c</text>
+<text x="0" y="179" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:0.660s">  -@%%%%%%%%%%%%%%#-cs===%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%s*+sccs%%sssccccccc**cs#s</text>
+<text x="0" y="193" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:0.715s">  c%%%%%%%%%%%%%%%%c-+-=s%%%%%%%%%%%%%%%%%%%%%%%%%%####%%#%s+==%%%%%%%%%%%%%c+c#c#%%sssccccccc**cs##</text>
+<text x="0" y="206" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:0.770s"> .%%%%%%%%%%%%%%%%%#+=-s@%%%%%%%%%%%%%%%%%%%%%%%%%%=-:=%%%s+:=#%%%%%%%%%%%%%#+*###%%##scssccc****s#%</text>
+<text x="0" y="220" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:0.825s"> =@%%%%%%%%%%%%%%%%#+==s%%%%%%%%%%%%%%%%%%%%%%%%%#%=--+%%%+:+s%%%%%%%%%%%%%%%c*##%%%#sscsccc**c*cs#%</text>
+<text x="0" y="234" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:0.880s"> c%%%%%%%%%%%%%%%%%s--c@%%%%%%%%%%#####%########%###+-==##+:*@%%%%%%%%%%%%%%%#c#%%%%#ssscccc*ccccs#%</text>
+<text x="0" y="248" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:0.935s">.#%%%%%%%%%%%%%%%%%*--+%%%%%%%%%#####################*-=+--=c%%%%%%%%%%%%%%%%%#%%%%%#sssccc**ccccc#%</text>
+<text x="0" y="262" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:0.990s">:#%%%%%%%%%%%%%%%%c-=c-*%%%%%%#######################*:--=-s@%%%%%%%%%%%%%%%%%#%%%%%##sccccccccccc##</text>
+<text x="0" y="276" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:1.045s">-%%%%%%%%%%%%%%%%%c-*#--s%%%%########################sc-=-s%%%%%%%%%%%%%%%%%%%#%%%%%#ss*ccccccccccs#</text>
+<text x="0" y="289" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:1.100s">-%%%%%%%%%%%%%%%%%+-c%+-c%#%########s##########s#s##s#s-==-c%%%%%%%%%%%%%%%%%%%%%%%%##c*ccccccccccs#</text>
+<text x="0" y="303" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:1.155s">-%%%%%%%%%%%%%%%%%%c#%#-+#%#######c+-=c###ssssssssss#c=--=-c%%%%%%%%%%%%%%%%%%%%%%%%#sccccccccccccs#</text>
+<text x="0" y="317" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:1.210s">=%%%%%%%%%%%%%%%%%%%%%%c`c%#####c*+=-::+s#sssss#sss#c=:-s=--*%%%%%%%%%%%%%%%%%%%%%%%#sccccccccccccs%</text>
+<text x="0" y="331" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:1.265s">-%%%%%%%%%%%%%%%%%%%%%%#*=s####***csc+=-=c##s##s#ss%=:--#s=--*@%%%%%%%%%%%%%%%%%%%%%##ssccccccccccs%</text>
+<text x="0" y="345" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:1.320s">-%%%%%%%%%%%%%%%%%%%%%%%%%###c**c##ss#*=--*######s#c=:-c#%=--+#%%%%%%%%%%%%%%%%%%%%%##ssccccccccccs#</text>
+<text x="0" y="358" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:1.375s">:%%%%%%%%%%%%%%%%%%%%%%%###s**cs#c=: :c*+--+s####sc::=c%###=--*%%%%%%%%%%%%%%%%%%%%%##scccccccccccs#</text>
+<text x="0" y="372" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:1.430s">`%%%%%%%%%%%%%%%%%%%%%%%##cccss%c--:  `*s*=-=c###s-==c%s##%##%%%%%%%%%%%%%%%%%%%%%%###sccccccccccc##</text>
+<text x="0" y="386" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:1.485s">.#%%%%%%%%%%%%%%%%%%%%%#sccs##%#++==-``-#c*+--*s############%%%%%%%%%%%%%%%%##%%%%%###scccsccccccc##</text>
+<text x="0" y="400" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:1.540s"> #%%%%%%%%%%%%%%%%%%%##cccs##s*=+*+===:`*#s*+=:=c##s##########%%%%%%%%%%%%%%##%%%%%###cccccccccccss#</text>
+<text x="0" y="413" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:1.595s"> s%%%%%%%%%%%%%%%#c*cc**s#%#*::+c**+==:.:=ccc*=--*s###########%%%%%%%%%%%%%%#%%%%%###scccccccccccs##</text>
+<text x="0" y="427" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:1.650s"> c@%%%%%%%%%%%%%%s+***c#%%s+-+s%###sc*=:.`.-*cc+--=c##########%%%%%%%%%%%%%%##%%%%###ssccccccccccs##</text>
+<text x="0" y="441" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:1.705s"> *%%%%%%%%%%%%%%%#==cs#%#c++s########ssc=` .=+cc*=--*s########%%%%%%%%%%%%%%#%%%%%%##sscccccccccss##</text>
+<text x="0" y="455" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:1.760s"> +%%%%%%%%%%%%%%%%%####sc-c%#scc+-=-=csss*-.`-+ssc+=-=*ss###########%%%%%%%%##%%%%%##sccccccccccss##</text>
+<text x="0" y="469" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:1.815s"> *@%%%%%%%%%%%%%%s+c%s*s=+%#%c=*-`-```-+css+``-+s#s*+=--+********cs#%%%%%%%%#s%%%%##ssccccccccccs###</text>
+<text x="0" y="482" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:1.870s"> +@%%%%%%%%%%%%%%%:.#`cs+%#%*:s#+-=-=-::+cssc:`-=c##c*+=--===++*c#%%%%%%%%%%#s#%%%##ssccccccccccs###</text>
+<text x="0" y="496" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:1.925s"> +@%%%%%%%%%%%%%%%#.=**:#%%*.++-+=+--=+=-=cs#s-`-=+s#sc*+++++*c#%##%%%%%%%%%#s#%%%##sscccccccccss###</text>
+<text x="0" y="510" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:1.980s"> +@%%%%%%%%%%%%%%%%c ==*%%s.`cc**=+-=+**+==cs#s-`=-:*s#sc*ccs#%#ss#%%%%%%%%%#s#%%%##scccccccccsss###</text>
+<text x="0" y="524" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:2.035s"> =@%%%%%%%%%%%%%%%%%+ -@#%=``c@*=++==*css*==c##c::++-=*#c*ssssccs#%%%%%%%%%%#s%%%%#sscccccccccsss###</text>
+<text x="0" y="538" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:2.090s"> -@%%%%%%%%%%%%%%#%%#-=%%s++:+s=+++-=*c+.**+=s#%c:=*++-.:+**ccs#%%%%%%%%%%%%#s%%###sscccccccccss####</text>
+<text x="0" y="552" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:2.145s"> :%%%%%%%%%%%%%%%%%%%+*s#+=-=%sc*+*+++c*:`*++*##%*::---+c**cs#%%%%%%%%%%%%%%#s%%%##sccc*ccccccss####</text>
+<text x="0" y="565" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:2.200s"> .%%%%%%%%%%%%%%%%%%%*-s#`+s#**c++++==*cs++++=c#%%=+**++++s%%%%%%%%%%%%%%%%%#s%%%##scccccc*cccs#####</text>
+<text x="0" y="579" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:2.255s">  #%%%%%%%%%%%%%%##ss*-=+.c#-.++=++===*ss#*====s%#++-:-*s%%%%%%%#-#%%%%%%%%%#s#%%#ssccccccccccs#####</text>
+<text x="0" y="593" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:2.310s">  s%%%%%%%%%%%%%%%%%%+`` :s*.`c=+++=+=+%%%*====*##=-=c#%%%%%#%%#%*=%%%%%%%%%#s#%##sscc****ccccs#####</text>
+<text x="0" y="607" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:2.365s">  *@%%%%%%%%%%%%%%%%#*- .*#c`*s=*c**c**#%#*++**c%#s#%%%%%%%#:#%#c#c*%%%%%%%%#s#%##ssccc****ccss#####</text>
+<text x="0" y="621" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:2.420s">  -@%%%%%%%%%%%%%%%%s=s``*c##sscssc*ss#%%#c*cs###%%%%%%%%%#%s+%%%###%%%%%%%%##%%##ssccc***cccss##s##</text>
+<text x="0" y="634" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:2.475s">  `%%%%%%%%%%%%%%%%%s*%*=c#%#s%%##sc#%s-##scs%=c##%%%%###%#s#c#%%%%%%%%%%%%%##%%##sscccc*cccss#####%</text>
+<text x="0" y="648" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:2.530s">   s%%%%%%%%%%%%%%%%%@%sc#scsscc%%#s##*.`*#cs%- s####scs%%%####%%%%%%%%%%%%%#%%%##sscccc*cccss####%%</text>
+<text x="0" y="662" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:2.585s">   +@%%%%%%%%%%%%%%##ssc=.-+-c#+s@#s%c*c.cs*c*#+=sccccc#*=%#%##%%%%%%%%%%%%%%%%%#ssscccccccss#####%%</text>
+<text x="0" y="676" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:2.640s">   `%%%%%%%%%%%%%%%%%#=+:`+s:*%ss%%s##c#*cc*+c*#****c*c%#`c%#s#%%%%%%%%%%%%%%%%%##sscccccccs######%%</text>
+<text x="0" y="690" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:2.695s">    c%%%%%%%%%%%%%%%%@*-+-+#sc%#c%%##%%%%c*++%%%s+*cccsc##+##s#%#%%%%%%%%%%#%%%%##ssccccccs######%%s</text>
+<text x="0" y="703" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:2.750s">    -@%%%%%%%%%%%%%%%%#-ccccs#%#c%%##%%%%cc*+s%%**sccc#s*sssss####%%%%%%%%%#%%%%##sscccccs#%####%%#.</text>
+<text x="0" y="717" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:2.805s">     s@%%%%%%%%%%%%%%%s#%%sc#%%#s%%##%%%%##scc%sc#s**ss%%%##s##+*cs%%%%%%%%#%%%%#sssscccss#%####%%* </text>
+<text x="0" y="731" class="ascii-row" fill="#c9d1d9" font-family="monospace" font-size="12px" xml:space="preserve" style="animation-delay:2.860s">     -%%%%%%%%%%%%%%%%#s*s#%%%#%#%%####sc###ss#s%`**cs*s######%%%#%%%%%%%%%#%%%%#ssssssss#%%###%%%- </text>
+</svg>

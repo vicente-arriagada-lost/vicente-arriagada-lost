@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="750" viewBox="0 0 700 750">
+<rect x="1" y="1" width="698" height="748" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+<rect x="1" y="1" width="698" height="42" rx="12" fill="#161b22"/>
+<circle cx="22" cy="22" r="6" fill="#ff5f56"/>
+<circle cx="42" cy="22" r="6" fill="#ffbd2e"/>
+<circle cx="62" cy="22" r="6" fill="#27c93f"/>
+<text x="90" y="28" fill="#8b949e" font-family="monospace" font-size="14px" font-weight="normal" opacity="1">vicente@github<animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.10s" fill="freeze"/></text>
+<text x="28" y="78" fill="#3fb950" font-family="monospace" font-size="18px" font-weight="bold" opacity="1">whoami<animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.30s" fill="freeze"/></text>
+<text x="28" y="104" fill="#c9d1d9" font-family="monospace" font-size="17px" font-weight="bold" opacity="1">Vicente Arriagada<animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.40s" fill="freeze"/></text>
+<text x="28" y="142" fill="#58a6ff" font-family="monospace" font-size="14px" font-weight="bold" opacity="1">OS      <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.55s" fill="freeze"/></text>
+<text x="125" y="142" fill="#c9d1d9" font-family="monospace" font-size="14px" font-weight="normal" opacity="1">Void Linux<animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.60s" fill="freeze"/></text>
+<text x="28" y="170" fill="#58a6ff" font-family="monospace" font-size="14px" font-weight="bold" opacity="1">DE      <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.63s" fill="freeze"/></text>
+<text x="125" y="170" fill="#c9d1d9" font-family="monospace" font-size="14px" font-weight="normal" opacity="1">KDE Plasma<animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.68s" fill="freeze"/></text>
+<text x="28" y="198" fill="#58a6ff" font-family="monospace" font-size="14px" font-weight="bold" opacity="1">WM      <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.71s" fill="freeze"/></text>
+<text x="125" y="198" fill="#c9d1d9" font-family="monospace" font-size="14px" font-weight="normal" opacity="1">KWin Wayland<animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.76s" fill="freeze"/></text>
+<text x="28" y="226" fill="#58a6ff" font-family="monospace" font-size="14px" font-weight="bold" opacity="1">Shell   <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.79s" fill="freeze"/></text>
+<text x="125" y="226" fill="#c9d1d9" font-family="monospace" font-size="14px" font-weight="normal" opacity="1">Bash<animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.84s" fill="freeze"/></text>
+<text x="28" y="266" fill="#3fb950" font-family="monospace" font-size="17px" font-weight="bold" opacity="1">Stack<animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.87s" fill="freeze"/></text>
+<text x="32" y="296" fill="#c9d1d9" font-family="monospace" font-size="14px" font-weight="normal" opacity="1">├─ Kotlin<animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.95s" fill="freeze"/></text>
+<text x="32" y="321" fill="#c9d1d9" font-family="monospace" font-size="14px" font-weight="normal" opacity="1">├─ Java<animate attributeName="opacity" values="0;1" dur="0.45s" begin="1.02s" fill="freeze"/></text>
+<text x="32" y="346" fill="#c9d1d9" font-family="monospace" font-size="14px" font-weight="normal" opacity="1">├─ Spring Boot<animate attributeName="opacity" values="0;1" dur="0.45s" begin="1.09s" fill="freeze"/></text>
+<text x="32" y="371" fill="#c9d1d9" font-family="monospace" font-size="14px" font-weight="normal" opacity="1">├─ React<animate attributeName="opacity" values="0;1" dur="0.45s" begin="1.16s" fill="freeze"/></text>
+<text x="32" y="396" fill="#c9d1d9" font-family="monospace" font-size="14px" font-weight="normal" opacity="1">├─ SQL<animate attributeName="opacity" values="0;1" dur="0.45s" begin="1.23s" fill="freeze"/></text>
+<text x="32" y="421" fill="#c9d1d9" font-family="monospace" font-size="14px" font-weight="normal" opacity="1">└─ Git<animate attributeName="opacity" values="0;1" dur="0.45s" begin="1.30s" fill="freeze"/></text>
+<text x="28" y="458" fill="#3fb950" font-family="monospace" font-size="17px" font-weight="bold" opacity="1">Focus<animate attributeName="opacity" values="0;1" dur="0.45s" begin="1.37s" fill="freeze"/></text>
+<text x="32" y="488" fill="#c9d1d9" font-family="monospace" font-size="14px" font-weight="normal" opacity="1">├─ Cybersecurity<animate attributeName="opacity" values="0;1" dur="0.45s" begin="1.45s" fill="freeze"/></text>
+<text x="32" y="513" fill="#c9d1d9" font-family="monospace" font-size="14px" font-weight="normal" opacity="1">├─ CTF<animate attributeName="opacity" values="0;1" dur="0.45s" begin="1.52s" fill="freeze"/></text>
+<text x="32" y="538" fill="#c9d1d9" font-family="monospace" font-size="14px" font-weight="normal" opacity="1">├─ Linux<animate attributeName="opacity" values="0;1" dur="0.45s" begin="1.59s" fill="freeze"/></text>
+<text x="32" y="563" fill="#c9d1d9" font-family="monospace" font-size="14px" font-weight="normal" opacity="1">└─ Software Development<animate attributeName="opacity" values="0;1" dur="0.45s" begin="1.66s" fill="freeze"/></text>
+<text x="28" y="600" fill="#3fb950" font-family="monospace" font-size="17px" font-weight="bold" opacity="1">Tools<animate attributeName="opacity" values="0;1" dur="0.45s" begin="1.73s" fill="freeze"/></text>
+<text x="32" y="630" fill="#c9d1d9" font-family="monospace" font-size="14px" font-weight="normal" opacity="1">├─ Docker<animate attributeName="opacity" values="0;1" dur="0.45s" begin="1.81s" fill="freeze"/></text>
+<text x="32" y="655" fill="#c9d1d9" font-family="monospace" font-size="14px" font-weight="normal" opacity="1">├─ PostgreSQL<animate attributeName="opacity" values="0;1" dur="0.45s" begin="1.88s" fill="freeze"/></text>
+<text x="32" y="680" fill="#c9d1d9" font-family="monospace" font-size="14px" font-weight="normal" opacity="1">├─ MongoDB<animate attributeName="opacity" values="0;1" dur="0.45s" begin="1.95s" fill="freeze"/></text>
+<text x="32" y="705" fill="#c9d1d9" font-family="monospace" font-size="14px" font-weight="normal" opacity="1">└─ DBeaver<animate attributeName="opacity" values="0;1" dur="0.45s" begin="2.02s" fill="freeze"/></text>
+</svg>
