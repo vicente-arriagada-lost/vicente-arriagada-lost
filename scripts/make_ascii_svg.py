@@ -8,16 +8,14 @@ OUTPUT = Path("ascii.svg")
 COLUMNS = 100
 ROWS = 53
 
-# Negro = caracteres densos
-# Blanco = espacio
+BACKGROUND = "#0d1117"
+COLOR = "#f0f6fc"
+BORDER = "#30363d"
+
 RAMP = "@%#*+=-:.` "
 
 FONT_SIZE = 12
 CHAR_WIDTH = 0.60
-
-BACKGROUND = "#0d1117"
-COLOR = "#f0f6fc"
-BORDER = "#30363d"
 
 ROW_DELAY = 0.055
 ROW_DURATION = 0.45
@@ -26,8 +24,11 @@ ROW_DURATION = 0.45
 def main():
     image = Image.open(INPUT).convert("L")
 
+    # Mantener exactamente las 53 filas.
+    # No usamos contain(), para evitar espacios adicionales.
     image = image.resize(
-        (COLUMNS, ROWS)
+        (COLUMNS, ROWS),
+        Image.Resampling.LANCZOS,
     )
 
     pixels = image.load()
@@ -36,9 +37,9 @@ def main():
         COLUMNS * FONT_SIZE * CHAR_WIDTH
     )
 
-    height = int(
-        ROWS * FONT_SIZE * 1.15
-    )
+    # Altura ajustada al contenido real del ASCII.
+    # Evita el margen grande debajo del dibujo.
+    height = ROWS * FONT_SIZE + 14
 
     svg = []
 
@@ -49,7 +50,6 @@ def main():
         f'viewBox="0 0 {width} {height}">'
     )
 
-    # Fondo negro estilo GitHub
     svg.append(
         f'<rect '
         f'x="0" '
@@ -68,12 +68,6 @@ def main():
         for column in range(COLUMNS):
             value = pixels[column, row]
 
-            # Imagen:
-            #
-            # Negro  -> @
-            # Gris   -> caracteres intermedios
-            # Blanco -> espacio
-            #
             index = int(
                 (255 - value)
                 / 255
@@ -82,7 +76,8 @@ def main():
 
             text += RAMP[index]
 
-        y = (row + 1) * FONT_SIZE
+        # Posición vertical de cada fila.
+        y = 12 + row * FONT_SIZE
 
         delay = row * ROW_DELAY
 
@@ -111,9 +106,7 @@ def main():
         encoding="utf-8",
     )
 
-    print(
-        f"✓ ASCII SVG generado: {OUTPUT}"
-    )
+    print(f"✓ ASCII SVG generado: {OUTPUT}")
 
 
 if __name__ == "__main__":
