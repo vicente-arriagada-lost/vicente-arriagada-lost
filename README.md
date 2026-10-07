@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="./contrib-heatmap.svg" alt="GitHub Contribution Heatmap" width="100%">
+
+<br>
+
 <table>
 <tr>
 <td width="50%" align="center">
