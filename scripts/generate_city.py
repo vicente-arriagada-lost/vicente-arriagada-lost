@@ -90,12 +90,12 @@ def building(i, j, c, date, busiest, n_weeks):
 
     sw = "1.1"
     g = [f'<g><title>{date}: {c} contribution{"s" if c != 1 else ""}</title>']
-    g.append(f'<polygon points="{P(left)}" fill="{hsl(hl,70,8)}" stroke="{hsl(hl,100,60)}" stroke-width="{sw}"/>')
-    g.append(f'<polygon points="{P(right)}" fill="{hsl(hr,70,11)}" stroke="{hsl(hr,100,60)}" stroke-width="{sw}"/>')
+    g.append(f'<polygon points="{P(left)}" fill="#080b10" stroke="{hsl(hl,100,60)}" stroke-width="{sw}"/>')
+    g.append(f'<polygon points="{P(right)}" fill="#0c1118" stroke="{hsl(hr,100,60)}" stroke-width="{sw}"/>')
     if n > 1:
         g.append(f'<path d="{seps_l}" stroke="{hsl(hl,100,60)}" stroke-opacity=".45" stroke-width=".7" fill="none"/>')
         g.append(f'<path d="{seps_r}" stroke="{hsl(hr,100,60)}" stroke-opacity=".45" stroke-width=".7" fill="none"/>')
-    g.append(f'<polygon points="{P(top)}" fill="{hsl(ht,70,16)}" stroke="{hsl(ht,100,65)}" stroke-width="{sw}"/>')
+    g.append(f'<polygon points="{P(top)}" fill="#131a24" stroke="{hsl(ht,100,65)}" stroke-width="{sw}"/>')
 
     # capa de luz: contorno visible con destello que recorre las aristas
     outline = (
@@ -158,12 +158,12 @@ def main():
 @media (prefers-reduced-motion:reduce){{.flow,.wave,.rim1,.rim2{{animation:none}}}}
 </style>
 <defs>
-<radialGradient id="bg" cx="50%" cy="45%" r="80%"><stop offset="0" stop-color="#220044"/><stop offset="1" stop-color="#0b0120"/></radialGradient>
+<radialGradient id="bg" cx="50%" cy="45%" r="80%"><stop offset="0" stop-color="#111821"/><stop offset="1" stop-color="#0d1117"/></radialGradient>
 <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
 <rect x="{min_x:.0f}" y="{min_y:.0f}" width="{w:.0f}" height="{h:.0f}" rx="10" fill="url(#bg)"/>
-<path d="{grid}" fill="#12002a" fill-opacity=".6" stroke="#5b2bb0" stroke-opacity=".55" stroke-width=".5"/>
-<path d="{perimeter}" fill="none" stroke="#ff2bd6" stroke-opacity=".7" stroke-width="1.2" filter="url(#glow)"/>
+<path d="{grid}" fill="#0a0f16" fill-opacity=".8" stroke="#1f3b4d" stroke-opacity=".7" stroke-width=".5"/>
+<path d="{perimeter}" fill="none" stroke="#00f5ff" stroke-opacity=".35" stroke-width="1" filter="url(#glow)"/>
 <path class="rim1" d="{perimeter}" fill="none" stroke="#00f5ff" stroke-width="2.2" stroke-linecap="round" filter="url(#glow)"/>
 <path class="rim2" d="{perimeter}" fill="none" stroke="#ffe600" stroke-width="2.2" stroke-linecap="round" filter="url(#glow)"/>
 {"".join(bs)}
