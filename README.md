@@ -32,14 +32,6 @@ $ cat now.txt
 > Practicing on CTFs / labs and documenting what I learn
 ```
 
-<div align="center">
-
-| | |
-|:-:|:-:|
-| ![Animated ASCII portrait](https://github.com/vicente-arriagada-lost/vicente-arriagada-lost/raw/main/ascii.svg) | ![System information and tech stack](https://github.com/vicente-arriagada-lost/vicente-arriagada-lost/raw/main/info-card.svg) |
-
-</div>
-
 ---
 
 ## 🏙️ `> ./city.sh --year=2026` — The city I built this year
