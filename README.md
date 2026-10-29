@@ -32,6 +32,14 @@ $ cat now.txt
 > Practicing on CTFs / labs and documenting what I learn
 ```
 
+<div align="center">
+
+| | |
+|:-:|:-:|
+| ![Animated ASCII portrait](https://github.com/vicente-arriagada-lost/vicente-arriagada-lost/raw/main/ascii.svg) | ![System information and tech stack](https://github.com/vicente-arriagada-lost/vicente-arriagada-lost/raw/main/info-card.svg) |
+
+</div>
+
 ---
 
 ## 🏙️ `> ./city.sh --year=2026` — The city I built this year
@@ -87,10 +95,9 @@ $ cat now.txt
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api?username=vicente-arriagada-lost&show_icons=true&hide_border=false&bg_color=0D1117&title_color=00FF41&icon_color=00F0FF&text_color=C9D1D9&border_color=00FF41&ring_color=FF00E5&include_all_commits=true&count_private=true&custom_title=%F0%9F%8E%AE%20PLAYER%20STATS" />
-<img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=vicente-arriagada-lost&layout=compact&hide_border=false&bg_color=0D1117&title_color=00FF41&text_color=C9D1D9&border_color=00F0FF&langs_count=8&custom_title=%E2%9A%94%EF%B8%8F%20WEAPON%20MASTERY" />
+<img src="./stats.svg" alt="GitHub stats, languages and streaks" width="100%"/>
 
-<img src="https://streak-stats.demolab.com?user=vicente-arriagada-lost&theme=dark&background=0D1117&border=00FF41&ring=FF00E5&fire=FF00E5&currStreakNum=00FF41&sideNums=00F0FF&currStreakLabel=00F0FF&sideLabels=C9D1D9&dates=8B949E&stroke=00FF41" />
+<sub>Generated daily by GitHub Actions straight from the GitHub API.</sub>
 
 </div>
 
