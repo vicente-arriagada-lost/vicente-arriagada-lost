@@ -1,0 +1,37 @@
+name: Contribution City
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # todos los días 06:00 UTC
+  workflow_dispatch:       # botón manual en la pestaña Actions
+  push:
+    paths:
+      - scripts/generate_city.py
+
+permissions:
+  contents: write
+
+jobs:
+  city:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate city.svg
+        run: python scripts/generate_city.py
+        env:
+          # Opcional: crea un secret GH_PAT (token con scope read:user) para
+          # incluir también tus contribuciones privadas. Si no existe, usa GITHUB_TOKEN.
+          GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+          GH_USER: vicente-arriagada-lost
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add city.svg
+          git diff --cached --quiet || (git commit -m "chore: update contribution city" && git push)
