@@ -16,20 +16,29 @@
 
 ## 🐱 About Me
 
+```bash
+$ whoami
+vicente-arriagada-lost   # "Lost" · Santiago, Chile 🇨🇱
+
+$ cat about.txt
+Cybersecurity + Full-Stack developer in the making.
+I like understanding how systems break so I can build them to resist it.
+Python and C++ are my daily drivers; I'm adding web security and
+modern full-stack (React, Node.js) to the loadout.
+
+$ cat now.txt
+> Learning web security fundamentals (OWASP Top 10) and networking
+> Building small tools in Python and C++
+> Practicing on CTFs / labs and documenting what I learn
+```
+
 <div align="center">
 
-<img src="./contrib-heatmap.svg" alt="GitHub Contribution Heatmap" width="100%"/>
-
-<table>
-  <tr>
-    <td align="center"><img src="./ascii.svg" alt="Animated ASCII portrait"/></td>
-    <td align="center"><img src="./info-card.svg" alt="System information and tech stack"/></td>
-  </tr>
-</table>
+| | |
+|:-:|:-:|
+| ![Animated ASCII portrait](https://github.com/vicente-arriagada-lost/vicente-arriagada-lost/raw/main/ascii.svg) | ![System information and tech stack](https://github.com/vicente-arriagada-lost/vicente-arriagada-lost/raw/main/info-card.svg) |
 
 </div>
-
-Based in Santiago, Chile 🇨🇱. I'm building my path at the intersection of **cybersecurity** and **full-stack development**: I want to understand how systems are attacked so I can build them to resist it.
 
 ---
 
