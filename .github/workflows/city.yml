@@ -2,7 +2,7 @@ name: Profile Visuals
 
 on:
   schedule:
-    - cron: "15 * * * *"   # cada hora, al minuto 15
+    - cron: "10 * * * *"   # cada hora, al minuto 15
   workflow_dispatch:       # botón manual en la pestaña Actions
   push:
     branches: [main]       # se actualiza en cada push tuyo
