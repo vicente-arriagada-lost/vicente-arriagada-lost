@@ -16,7 +16,8 @@ GREEN, CYAN, MAGENTA, TEXT, DIM = "#00ff41", "#00f0ff", "#ff00e5", "#c9d1d9", "#
 FALLBACK = ["#00f0ff", "#ff00e5", "#ffe600", "#39ff14", "#7c4dff", "#ff7a00", "#8b949e", "#58a6ff"]
 
 
-def gql(query):
+def gql(query, soft=False):
+    """soft=True: si la API devuelve error, avisa y devuelve None en vez de abortar."""
     if not TOKEN:
         sys.exit("Falta GH_TOKEN o GITHUB_TOKEN")
     req = urllib.request.Request(
@@ -27,6 +28,12 @@ def gql(query):
     with urllib.request.urlopen(req, timeout=60) as r:
         data = json.load(r)
     if "errors" in data:
+        if soft and data.get("data"):
+            print(f"AVISO (se continúa): {data['errors']}")
+            return data["data"]
+        if soft:
+            print(f"AVISO (se omite): {data['errors']}")
+            return None
         sys.exit(f"Error GraphQL: {data['errors']}")
     return data["data"]
 
@@ -36,12 +43,18 @@ def collect():
 
     base = gql(f"""{{ user(login:"{USER}") {{
         createdAt
-        repositoriesContributedTo(first:1, contributionTypes:[COMMIT,ISSUE,PULL_REQUEST,REPOSITORY]){{totalCount}}
         repositories(first:100, ownerAffiliations:OWNER, isFork:false){{nodes{{
             stargazerCount
             languages(first:10, orderBy:{{field:SIZE, direction:DESC}}){{edges{{size node{{name color}}}}}}
         }}}}
     }} }}""")["user"]
+
+    extra = gql(f"""{{ user(login:"{USER}") {{
+        repositoriesContributedTo(first:1, contributionTypes:[COMMIT,ISSUE,PULL_REQUEST,REPOSITORY]){{totalCount}}
+    }} }}""", soft=True)
+    contributed = "—"
+    if extra and extra.get("user") and extra["user"].get("repositoriesContributedTo"):
+        contributed = extra["user"]["repositoriesContributedTo"]["totalCount"]
 
     first_year = int(base["createdAt"][:4])
     years = range(first_year, today.year + 1)
@@ -73,7 +86,7 @@ def collect():
 
     return {
         "stars": stars, "commits": commits, "prs": prs, "issues": issues,
-        "contributed": base["repositoriesContributedTo"]["totalCount"],
+        "contributed": contributed,
         "langs": langs, "days": days, "today": today,
     }
 
